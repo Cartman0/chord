@@ -14,7 +14,7 @@ flowchart TB
     Am --"D'"--> Bmb5;
     Am --"T'"--> C;
     Am -- "SD'" --> Dm;
-    Am -- "D, II-V" --> E7_Am;
+    Am -- "D" --> E7_Am;
     Am -- "T', SD', I-VI" --> F;
     Am -- "SD'" --> G;
 
