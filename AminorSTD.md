@@ -37,7 +37,7 @@ flowchart TB
 
     %% E7
     E7_Am -- "T, V-I" --> Am;
-    E7_Am -- "T''" --> C;
+    E7_Am -- "T'" --> C;
     E7_Am -- "T', SD' " --> F;
 
     %% F　トニック代理、サブドミナント代理
