@@ -15,12 +15,12 @@ flowchart TB
     Am --"T'"--> C;
     Am -- "SD'" --> Dm;
     Am -- "D, II-V" --> E7_Am;
-    Am -- "T', SD'" --> F;
+    Am -- "T', SD', I-VI" --> F;
     Am -- "SD'" --> G;
 
     %% Bmb5
     Bmb5 -- T' --> C;
-    Bmb5 -- D --> E7_Am;
+    Bmb5 -- "D, II-V" --> E7_Am;
 
     %% C トニック代理
     C-- "D'" -->Bmb5;
@@ -42,7 +42,7 @@ flowchart TB
 
     %% F　トニック代理、サブドミナント代理
     F -- "T" --> Am;
-    F-- "D, I-II'" -->Bmb5;
+    F-- "D', VI-II" -->Bmb5;
     F -- "T'" --> C;
     F --"SD'"--> Dm;
     F -- "D" --> E7_Am;
