@@ -13,7 +13,7 @@ flowchart TB
     %%  Am
     Am --"D'"--> Bmb5;
     Am --"T'"--> C;
-    Am -- "SD'" --> Dm;
+    Am -- "SD" --> Dm;
     Am -- "D" --> E7_Am;
     Am -- "T', SD', I-VI" --> F;
     Am -- "SD'" --> G;
@@ -24,7 +24,7 @@ flowchart TB
 
     %% C トニック代理
     C-- "D'" -->Bmb5;
-    C-- "SD'" -->Dm;
+    C-- "SD" -->Dm;
     C-- "T', SD'" -->F;
 
     %% Dm
@@ -44,7 +44,7 @@ flowchart TB
     F -- "T" --> Am;
     F-- "D', VI-II" -->Bmb5;
     F -- "T'" --> C;
-    F --"SD'"--> Dm;
+    F --"SD"--> Dm;
     F -- "D" --> E7_Am;
     F -- "SD'" -->G;
 
